@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlueBeam –  by neda sediqi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BlueBeam</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impact">Impact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#carousel-section">Carousel</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <h1 class="display-4 fw-bold">BlueBeam <br> A Brighter Path for Afghan Learners</h1>
+      <p class="lead">Empowering Afghan communities through innovative technology and education.</p>
+      <a href="#features" class="btn btn-primary btn-lg mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5" id="features">
+    <div class="container">
+      <h2 class="mb-4 text-center">Features</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="mb-3 text-primary fs-1">📚</div>
+              <h5 class="card-title">Smart Education</h5>
+              <p class="card-text">AI-powered interactive lessons in Dari and Pashto, tailored for Afghan students.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="mb-3 text-success fs-1">🌾</div>
+              <h5 class="card-title">Agricultural Support</h5>
+              <p class="card-text">Real-time advice and market info to help Afghan farmers improve their yield and income.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1">👩‍💻</div>
+              <h5 class="card-title">Women Empowerment</h5>
+              <p class="card-text">courses and mentoring rpograms designed specifically to support Afghan women in tech.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact">
+    <div class="container">
+      <h2 class="mb-4">Our Vision</h2>
+      <p class="lead mx-auto" style="max-width:700px;">
+        BlueBeam aims to illuminate the path for Afghanistan’s future by empowering youth, women, and rural communities
+        through accessible technology and education. We believe every Afghan deserves the tools to build a brighter tomorrow.
+      </p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="py-5" id="gallery">
+  <div class="container">
+    <h2 class="mb-4 text-center">Gallery</h2>
+    <div class="row g-3">
+      <div class="col-6 col-md-3">
+        <img src="class.jpg" alt="Modern Afghan Classroom" class="img-fluid rounded shadow-sm">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="girl.jpg" alt="Afghan Woman in Tech" class="img-fluid rounded shadow-sm">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="farm.jpg" alt="Afghan Farmer" class="img-fluid rounded shadow-sm">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="team.jpg" alt="Afghan Youth Collaboration" class="img-fluid rounded shadow-sm">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Carousel Section (Bonus) -->
+  <section class="py-5 bg-white" id="carousel-section">
+    <div class="container">
+      <h2 class="mb-4 text-center">Highlights Carousel</h2>
+      <div id="bluebeamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#bluebeamCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#bluebeamCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#bluebeamCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded shadow-sm">
+          <div class="carousel-item active">
+            <img src="1.jpg"
+              class="d-block w-100" alt="Afghan Students" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Smart Education for All</h5>
+              <p>Interactive AI-powered lessons tailored for Afghan students.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg"
+              class="d-block w-100" alt="Afghan Farmer" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Supporting Farmers</h5>
+              <p>Real-time advice to improve yield and income.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg"
+              class="d-block w-100" alt="Women in Tech" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Empowering Women in Tech</h5>
+              <p>Courses and mentorship for Afghan women.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bluebeamCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bluebeamCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Section (Bonus) -->
+  <section class="py-5 text-center bg-white">
+    <div class="container">
+      <h2 class="mb-4">Want to Know More?</h2>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infoModal" style="background-color: #000000;">
+        Open Info Modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="infoModalLabel">About BlueBeam</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+              BlueBeam is dedicated to empowering Afghan communities through education, technology, and innovation.
+              Join us in building a brighter future together.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5" id="contact">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contact Us</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100" style="background-color: #000000;">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="mb-0"> 2025 BlueBeam | Designed by  <strong>neda sediqi</strong> </p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
